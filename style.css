@@ -1,0 +1,197 @@
+body{
+    font-family: 'Andada Pro', serif;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Fascinate', cursive;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.container{
+    background-image: url("donation5.jpg");
+    background-size: cover;
+    text-align: center;
+    color: white;
+    height: 50vh;
+    padding-top: 20%;
+    
+}
+h1{
+    font-size: 50px;
+}
+.p-1{
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+a{
+    text-decoration: none;
+    background-color: salmon;
+    padding: 15px;
+    border-radius: 5px;
+    color: beige;
+    font-weight: 600;
+  
+}
+.today{
+    text-align: center;
+    padding: 20px;
+}
+.container-2{
+    display: flex;
+    justify-content: space-between;
+    margin: 5%;
+    padding: 2%;
+    border-radius: 10px;
+    box-shadow: 10px 10px 40px gray;
+}
+  
+.active-money{
+    background-color: rgb(202, 196, 196);
+    border-radius: 5px;
+    padding: 10px;
+    color: rgb(53, 48, 48);
+
+}
+.deactive-money{
+    background-color: rgb(241, 151, 169);
+    color: crimson;
+    border-radius: 5px;
+    padding: 10px;
+    border: 2px solid crimson;
+   
+}
+hr{
+    width: 500px;
+    margin-bottom: 30px;
+}
+.p-2{
+    text-align: center;
+    color: rgb(139, 130, 130);
+}
+.container-3{
+    display: flex;
+    justify-content: space-between;
+}
+.food{ 
+    background-color: rgb(219, 245, 245);
+    margin-left: 80px;
+    margin-right: 20px;    
+    padding: 10px;
+    border-radius: 10px;
+
+}
+.shelter{
+    background-color: bisque;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 10px;
+    border-radius: 10px;
+
+}
+.education{
+     background-color: rgb(238, 231, 220);
+    padding: 10px;
+    border-radius: 10px;   
+    margin-left: 20px;
+    margin-right: 80px;
+}
+
+.container-4{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(245, 244, 247);
+    color: rgb(122, 117, 117);
+    font-weight: bold;
+    margin: 10%;
+   
+
+}
+#about{
+    padding: 80px;
+  
+}
+.half-width-2 img{
+    margin-top: 30%;
+  padding-right: 10%;
+    width: 100%;
+    position: relative;
+}
+
+#hire{
+background-image: linear-gradient(to bottom, #FF589B 0%, #FF136F 100%);
+color: beige;
+
+font-weight: bold;
+border: 0;
+border-radius: 5px;
+padding: 10px;
+margin-right: 0;
+}
+#project{
+background-image: linear-gradient(to bottom, #f00462 0%, #f05b0594 100%);
+color: beige;
+
+font-weight: bold;
+border: 0;
+border-radius: 5px;
+padding: 10px;
+}
+.font{
+font-weight: bolder;
+}
+.parent{
+display: flex;
+justify-content: space-between;
+}
+
+.child{
+padding-top: 50px;
+padding-right: 30px;
+
+}
+.form{
+    background-color: bisque;
+    height: 300px;
+    margin-top: 20px;
+    margin-left: 350px;
+    margin-right: 350px;
+    margin-bottom: 100px;
+    height: 100px;
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    
+    
+}
+.form input{
+    background-color: rgb(214, 198, 198);
+    padding: 10px;
+    border-radius: 2px;
+    border: none;
+    padding: 10px;
+    border-radius: 2px;
+    height: 30px;
+    margin-right: 0;
+}
+.form button{
+    background-color: tomato;
+    padding: 10px;
+    border-radius: 2px;
+    border: none;
+    color: beige;
+    font-weight: 500;
+    margin-left: 0;
+    height: 50px; 
+}
+.last-div{
+    background-color: black;
+    font-style: italic;
+    color: azure;
+    text-align: center;
+    height: 200px;
+    padding: 20px;
+}
+.last-div h1{
+    color: tomato;
+    font-weight: 900;
+}
